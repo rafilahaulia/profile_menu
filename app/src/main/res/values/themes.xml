@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CrealthApp" parent="Theme.AppCompat.DayNight.NoActionBar">
+         <item name="colorPrimary">@color/blue_400</item>
+        <item name="android:statusBarColor">@color/blue_400</item>
+    </style>
+
+    <style name="Theme.CrealthApp" parent="Base.Theme.CrealthApp" />
+
+    <style name="SplashScreenTheme" parent="Theme.Material3.DayNight.NoActionBar" />
+
+    <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/white</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:elevation">8dp</item>
+    </style>
+</resources>
