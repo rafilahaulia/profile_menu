@@ -5,7 +5,11 @@
         <item name="android:statusBarColor">@color/blue_400</item>
     </style>
 
-    <style name="Theme.CrealthApp" parent="Base.Theme.CrealthApp" />
+    <style name="MyProfile" parent="Theme.MaterialComponents.Light">
+        <item name="colorPrimary">@color/blue_400</item>
+        <item name="android:statusBarColor">@color/blue_400</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
 
     <style name="SplashScreenTheme" parent="Theme.Material3.DayNight.NoActionBar" />
 

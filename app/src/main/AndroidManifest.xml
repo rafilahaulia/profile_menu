@@ -15,6 +15,11 @@
         android:theme="@style/Base.Theme.CrealthApp"
         tools:targetApi="31">
         <activity
+            android:name=".MyProfileActivity"
+            android:theme="@style/MyProfile"
+            android:label="My Profile"
+            android:exported="false" />
+        <activity
             android:name=".SplashActivity"
             android:exported="true"
             android:theme="@style/SplashScreenTheme">
@@ -26,8 +31,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="false">
-        </activity>
+            android:exported="false"></activity>
     </application>
 
 </manifest>

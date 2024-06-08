@@ -89,6 +89,7 @@
                     android:textStyle="bold" />
 
                 <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/myProfile"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginStart="16dp"
@@ -97,8 +98,8 @@
 
                     <ImageView
                         android:id="@+id/imageView"
-                        android:layout_width="32dp"
-                        android:layout_height="32dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
                         android:src="@drawable/ic_profile_border"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -111,7 +112,7 @@
                         android:layout_marginStart="16dp"
                         android:text="My Profile"
                         android:textColor="@color/black"
-                        android:textSize="18sp"
+                        android:textSize="16sp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toEndOf="@+id/imageView"
                         app:layout_constraintTop_toTopOf="parent" />
@@ -143,8 +144,8 @@
 
                     <ImageView
                         android:id="@+id/imageView4"
-                        android:layout_width="32dp"
-                        android:layout_height="32dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
                         android:src="@drawable/ic_lock"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -157,7 +158,7 @@
                         android:layout_marginStart="16dp"
                         android:text="Security"
                         android:textColor="@color/black"
-                        android:textSize="18sp"
+                        android:textSize="16sp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toEndOf="@+id/imageView4"
                         app:layout_constraintTop_toTopOf="parent" />
@@ -189,8 +190,8 @@
 
                     <ImageView
                         android:id="@+id/imageView6"
-                        android:layout_width="32dp"
-                        android:layout_height="32dp"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
                         android:src="@drawable/ic_information"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -203,7 +204,7 @@
                         android:layout_marginStart="16dp"
                         android:text="Personal Information"
                         android:textColor="@color/black"
-                        android:textSize="18sp"
+                        android:textSize="16sp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toEndOf="@+id/imageView6"
                         app:layout_constraintTop_toTopOf="parent" />
